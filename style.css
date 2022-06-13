@@ -1,0 +1,66 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #A52A2A;
+}
+
+#incremento{
+display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-right: 200px;
+}
+
+#formulario{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: fit-content;
+  line-height: 30px;
+  text-align:center;
+  color: rgb(0, 0, 0);
+  top: 50%;
+  background-color: #fffacdc3;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#incremento{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#escolha{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#entrada{
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+#saida{
+    font-size: 20px;
+}
