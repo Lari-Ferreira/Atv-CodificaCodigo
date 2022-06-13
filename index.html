@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- LINK JS -->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- <h1>Campo que recebe entrada do usuário - tipo string</h1> -->
+
+   <div class="container">
+        <form id="formulario">
+        
+            <textarea id="entrada" placeholder="Digite aqui sua mensagem"></textarea><br><br>
+
+            <div>
+                <select name="select" id="escolha">
+                    <option value="" selected>escolha uma opção</option>
+                    <option value="base">base64</option>
+                    <option value="cifra">cifra de Cesar</option>
+                </select>              
+                <input type="number" id="incremento">
+            </div>
+            
+            <button id="btncode"> Codificar </button>
+            <button id="btndecode"> Decodificar </button>
+
+            <div id="codificado"> 
+                <h3 id="titulo2">Mensagem cifrada/decifrada:</h3>
+                <textarea id="saida" placeholder="Mensagem cifrada/decifrada aparecerá aqui"></textarea><br>
+            </div>
+        </form>
+   </div>
+</body>
+</html>
